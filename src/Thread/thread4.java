@@ -3,7 +3,11 @@ package Thread;
 public class thread4 {
 	public static void main(String[] args) {
 		th ta=new th();
-		  ta.run();
+		  //ta.run();
+		  Thread as=new Thread(ta);
+		  as.start();
+		  Thread aa=new Thread(ta);
+		  aa.start();
 	}
 }
 class th implements Runnable{

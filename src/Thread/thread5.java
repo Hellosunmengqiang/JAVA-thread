@@ -6,7 +6,7 @@ import java.util.TimerTask;
 public class thread5 {
 	public static void main(String[] args) {
 		Timer time=new Timer();
-		time.schedule(new timer1(), 1000,30*1000);
+		time.schedule(new timer1(), 1000,3*1000);
 		
 	}
 
